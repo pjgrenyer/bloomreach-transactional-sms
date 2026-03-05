@@ -1,11 +1,11 @@
 {
     "name": "bloomreach-transactional-sms",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "A nonofficial client library for sending transactional SMS via Bloomreach ",
     "engines": {
-    "node": ">=20.0.0",
-    "npm": ">=9.0.0"
-  },
+        "node": ">=20.0.0",
+        "npm": ">=9.0.0"
+    },
     "scripts": {
         "prepare": "husky",
         "build": "rimraf dist && tsc",
